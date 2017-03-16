@@ -1,0 +1,387 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML
+1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-tansitional.dtd">
+<html 
+xmlns="http://www.w3.org/1999/xhtml">
+ <head>
+  <meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/>
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
+  <link rel="stylesheet" href="css/basic_06.css" type="text/css"/>
+  <title>京东网上商城</title>
+  <script type="text/javascript">
+	function showOrHide(id,dp){
+		document.getElementById(id).style.display=dp;
+	}
+  </script>
+ 
+ </head>
+ <body>
+	<!--收藏和登录条-->
+	<div id="top">
+		<div id="top_bar">
+			<img src="images/star1.png" align="absmiddle"/>
+			<a href="javascript:void(0)">收藏京东</a>
+			<ul class="rt">
+				<li>
+					您好！欢迎来到京东！
+					<a href="#">[登录]</a>
+					<a href="#">[免费注册]</a>
+				</li>
+				<li>
+					<b></b>
+					<a href="#">我的订单</a>
+				</li>
+				<li id="vip">
+					<b></b>
+					<a href="#">我的俱乐部</a>
+				</li>
+				<li id="dakehu">
+					<b></b>
+					<a href="#">企业频道</a>
+				</li>
+				<li id="app_jd" 
+				onmouseover="showOrHide('aj_dropdown','block')" onmouseout="showOrHide('aj_dropdown','none')">
+					<b></b>
+					<span><a href="#">手机京东</a></span>
+					<div id="aj_dropdown" class="top_bar_dropdown" >
+						<div>
+							京东客户端
+							<div></div>
+							<div></div>
+						</div>
+						<div>
+							网银钱包客户端
+							<div></div>
+							<div></div>
+						</div>
+					</div>
+				</li>
+				<li id="customer_service" 
+				onmouseover="showOrHide('cs_dropdown','block')" onmouseout="showOrHide('cs_dropdown','none')">
+					<b></b>
+					<a href="#" >客户服务</a>
+					<div id="cs_dropdown" class="top_bar_dropdown">
+						<ul>
+							<li><a  href="#">帮助中心</a></li>
+							<li><a  href="#">售后服务</a></li>
+							<li><a  href="#">在线客服</a></li>
+							<li><a  href="#">投诉中心</a></li>
+							<li><a  href="#">客服邮箱</a></li>
+						</ul>
+					</div>
+				</li>
+				<li id="site_map"
+				onmouseover="showOrHide('sm_dropdown','block')" onmouseout="showOrHide('sm_dropdown','none')">
+					<b></b>
+					<a href="#">网站导航</a>
+					<div id="sm_dropdown" class="top_bar_dropdown">
+						<h3>特色栏目</h3>
+						<ul>
+							<li><a href="#">京东通信</a></li>
+							<li><a href="#">校园之星</a></li>
+							<li><a href="#">视频购物</a></li>
+							<li><a href="#">京东社区</a></li>
+							<li><a href="#">在线读书</a></li>
+							<li><a href="#">装机大师</a></li>
+							<li><a href="#">京东E卡</a></li>
+							<li><a href="#">家装城&nbsp;</a></li>
+							<li><a href="#">搭配购&nbsp;</a></li>
+							<li><a href="#">我喜欢&nbsp;</a></li>
+							<li><a href="#">游戏社区</a></li>
+						</ul>
+						<div class="clr"></div>
+						<h3>企业服务</h3>
+						<ul>
+							<li><a href="#">企业采购</a></li>
+							<li><a href="#">办公直通车</a></li>
+						</ul>
+						<div class="clr"></div>
+						<h3>旗下网站</h3>
+						<ul>
+							<li><a href="#">English Site</a></li>
+						</ul>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+
+	<!--logo和搜索栏-->
+	<div id="top_main">
+		<form method="post" action="" id="search">
+			<input name="keywords"/><input type="button" value="搜索"/>
+		</form>
+		<span>
+			<span id="shopping_car">
+				我的购物车
+			</span>
+			<span id="no">0</span>
+		</span>
+		<ul>
+			<li><a href="#">美裙清仓</a><li/>
+			<li><a href="#">清仓</a><li/>
+			<li><a href="#">99减40</a><li/>
+			<li><a href="#">机票减500</a><li/>
+			<li><a href="#">满49减15</a><li/>
+			<li><a href="#">水蜜桃</a><li/>
+			<li><a href="#">卫裤男</a><li/>
+			<li><a href="#">0元试用</a><li/>
+			<li><a href="#">儿童浴巾</a><li/>
+		<ul/>
+		
+	</div>
+
+	<!--导航栏-->
+	<div id="nav">
+		<span><a href="#">全部商品分类</a></span>
+		<ul>
+			<li><a href="#">服装城</a></li>
+			<li><a href="#">美妆馆</a></li>
+			<li><a href="#">京东超市</a></li>
+			<li><a href="#">生鲜</a></li>
+			<li><a href="#">全球购</a></li>
+			<li><a href="#">团购</a></li>
+			<li><a href="#">拍卖</a></li>
+			<li><a href="#">金融</a></li>
+		</ul>
+	</div>
+		<hr/>
+
+	<!--主体区-->
+	<div id="main_bground">
+	<div id="main">
+		<div>
+			<div class="lt" id="main_top_bar">
+				<span><a href="#">个护化妆</a></span>
+				>
+				<a href="#">清洁用品</a>
+				>
+				<a href="#">衣物清洁</a>
+				>
+				<a href="#">蓝月亮</a>
+				>
+				<a href="#">蓝月亮洗衣液</a>
+			</div>
+			<div id="main_main">
+				<div class="lt">
+					<dl>
+						<dt id='dt'>
+							<img src="images/sample1-m.jpg" id='image-m'/>
+							<div id='mask'></div>
+							<div id='maskTop'></div>
+							<div id='largeImgContainer'><img src='images/sample1-l.jpg'/></div>
+						</dt>
+						<dd class="clr" id='dd'>
+							<span id="left" class='leftDisabled'></span>
+							<span id='thumb'>
+								<span>
+								<img src="images/sample1.jpg" class='redBorder'/>
+								<img src="images/sample2.jpg" class='transBorder'/>
+								<img src="images/sample3.jpg" class='transBorder' />
+								<img src="images/sample4.jpg" class='transBorder' />
+								<img src="images/sample1.jpg" class='transBorder' />
+								<img src="images/sample1.jpg" class='transBorder' />
+								</span>
+							</span>
+							<span id="right" class='right'></span>
+						</dd>
+					</dl>
+					<div style="margin-top:15px">
+						<span class="lt">商品编号：329873</span>
+						<span class="rt" style="margin-right:30px;">
+							<a href="#" id="share">
+							<b></b>
+							分享
+							</a>
+							<a href="#" id="concern">
+							<b></b>
+							关注商品
+							</a>
+						</span>
+					</div>
+				</div>
+				<div class="lt" id="product_text">
+					<div id="main_title">
+						<div style="font-size:16px;font-weight:bold;">【京东超市】蓝月亮 亮白增艳洗衣液（自然清香）3kg/瓶 （新老包装随<br/>机发货）</div>
+						<span style="color:red; font-size:14px;">亮白增艳 低泡易漂 适合多种材质衣物</span><a href="#">部分商品199减100，2件7折，3件6折任选，<br/>更有爆款疯狂直降，惊喜多多优惠不停</a>
+					</div>
+					<div id="main_price">
+						<div id="comment" class="rt">
+							<p>累计评价</p>
+							<a>349721</a>
+						</div>
+						<div id="dt">京 东 价：<span>￥39.90</span>(降价通知)
+						</div>
+						<div id="dd">促销信息：<span style="background:rgb(228,57,60);color:#fff;padding:0px 2px; line-height:12px;">限制</span> <span style="color:red">此价格不与套装优惠同时享受</span>
+						</div>
+					</div>
+					<ul id="summary">
+						<li>支 &nbsp;&nbsp;&nbsp;&nbsp;持：
+							<a href="#">
+								<i id="gift_buy"></i>
+								<span>礼品购</span>
+							</a>
+						</li>
+						<li>
+							<span>配 送 至：</span>
+							<div id="place">
+								北京朝阳区三环以内
+								<b></b>
+							</div>&nbsp;
+							<span style="font-weight:bold">有货</span>，支持99元免运费 | 货到付款
+						</li>
+						<li>服 &nbsp;&nbsp;&nbsp;&nbsp;务：由 京东 发货，并提供售后服务。23:00前完成下单,预计<span style="font-weight:bold">明天(07月15日)</span>送达</li>
+					</ul>
+					<div id="text2">
+						<ul>
+							<li id="select_product">选择产品：
+								<a href="#">
+									<div id="right_pic1">
+										<img src="images/right_little_picture1.jpg"/>
+										自然清香
+									</div>
+								</a>
+								<a href="#">
+									<div>
+										<img src="images/right_little_picture2.jpg"/>
+										薰衣草
+									</div>
+								</a>
+								<a href="#">
+									<div id="right_pic3">
+										<img src="images/right_little_picture3.jpg"/>
+										自然清香12斤套装
+									</div>
+								</a>
+								<a href="#">
+									<div id="right_pic4">
+										<img src="images/right_little_picture4.jpg"/>
+										薰衣草18斤套装
+									</div>
+								</a>
+							</li>
+							<li id="select_suit">选择套装：
+								<div class="item selected">1件
+									<b></b>
+								</div>
+								<a href="#"><div class="item">套装4件</div></a>
+							</li>
+							<li id="choose_baitiao">白条分期：
+								<div class="item selected">
+									<a href="#">30天免息</a>
+									<b></b>
+								</div>
+								<div class="item">
+									<a href="#">¥13.5×3期</a>
+									<b></b>
+								</div>
+								<div class="item">
+									<a href="#">¥6.85×6期</a>
+									<b></b>
+								</div>
+								<div class="item">
+									<a href="#">¥3.52×12期</a>
+									<b></b>
+								</div>
+								<div class="item">
+									<a href="#">¥1.86×24期</a>
+									<b></b>
+								</div>
+								<div class="hui">
+									<a href="#" id="hui_pic">
+										<img src="images/hui.png"/>
+									</a>
+								</div>
+								<div class="hui"  id="why_pic">
+									<a href="#"></a>
+								</div>
+							</li>
+						</ul>
+						<div id="wrap_input">
+							<input value="1"/>
+							<a href="#" class="add">+</a>
+							<a href="#" class="reduce">-</a>
+							<div id="add_to_shoppingcar">
+								<a href="#" ></a>
+							</div>
+						</div>
+						<div class="clr" id="tips">
+							温馨提示： 1. &nbsp;支持7天无理由退货
+						</div>
+					</div>
+				</div>
+				<div class="lt">
+					<div  id="blue_moon">
+						<a>
+							<img src="images/blue_moon.jpg"/>
+						</a>
+					</div>
+					<div id="seller_info">
+						<a href="#" title="蓝月亮京东自营店">蓝月亮京东自营店</a>
+						<div>京东自营</div>
+					</div>
+					<div id="what">
+						<div id="contact">
+							<a href="#">
+							<img src="images/sprite-gys-im.gif"/>联系供应商
+							</a>
+						</div>
+						<div id="ask">
+							<a href="#">
+								<b></b>咨询JIMI
+							</a>
+						</div>
+						<h1></h1>
+						<div id="hang">
+							<a href="#">
+								<b></b>进店逛逛
+							</a>
+						</div>
+						<div id="concern_store">
+							<a href="#">
+								<b></b>关注店铺
+							</a>
+						</div>
+					</div>
+					<div id="service_support">
+						<span>服务支持：</span>
+						<h1></h1>
+						<a href="#" id="yejianpei" title="支持晚上19:00-22:00送货">
+							<img src="images/yueliang.png"/>
+							<span>夜间配</span>
+						</a>
+						<a href="#" title="我们提供多种自提服务，包括京东自提点、自助提货柜、移动自提车等服务，钻石会员自提自营商品订单满79元免运费，其他会员自提自营商品订单满99免运费；不足金额订单收取3元/单运费">
+							<img src="images/shoutixiang.png"/>
+							<span>自提</span>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	</div>
+	<div class="clr"></div>
+
+	<!--猜你喜欢-->
+	<div id="may_like">
+	猜你
+	</div>
+
+	<!--最近浏览-->
+	<div id="recent_view">
+	最近浏览
+	</div>
+
+	<!--购物指南-->
+	<div id="footer_bar">
+	购物指南
+	</div>
+
+	<!--页脚-->
+	<div id="footer">
+	页脚
+	</div>
+	<script src='jd.js'>
+	</script>
+ </body>
+</html>
